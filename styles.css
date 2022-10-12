@@ -1,0 +1,96 @@
+a:visited {
+  color: red;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+
+a:link {
+    color: rgb(77, 12, 242);
+
+  }
+
+.main-header a {
+    color: rgb(239, 91, 11);
+}
+
+.navbar {
+    background: url("") no-repeat center right/cover;
+    height: 10vh;
+    margin: 0px 0px;
+}
+
+.navbar .btn {
+    border: 2PX solid rgb(12, 12, 12);
+}
+
+body {
+    background-color: rgb(234, 236, 231);
+}
+
+.grid-container {
+    display: grid;
+    background-color: rgb(240, 246, 246);
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+.grid-container > div {
+    text-align: center;
+    border: 1px solid gray;
+  }
+
+.grid-container .project-name {
+    padding: 0;
+  }
+
+.grid-container .project-info {
+    padding: 0;
+  }
+
+.grid-container .project-img img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+.biopic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 10%;
+}
+
+.project {
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    padding-left: 10px;
+}
+
+span {
+    padding-left: 10px;
+}
+
+.video-container iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.repo-link {
+    text-align: center;
+}
